@@ -1,0 +1,7 @@
+# Flowboard
+
+> Flowboard is a private team Kanban board for planning and tracking tasks. Cards move through four columns: Backlog, In Progress, In Review and Done. Each card has an assignee, a priority (High, Medium or Low) and an optional due date.
+
+Flowboard is a single-page web app. Boards are visible only to signed-in team members, so the only public page is the sign-in screen.
+
+- [Flowboard](https://flowboard-eight-beta.vercel.app/): sign in or create an account

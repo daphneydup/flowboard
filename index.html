@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowboard – Team Kanban Board for Tracking Tasks</title>
+    <meta name="description" content="Flowboard is a private team Kanban board. Organize tasks into Backlog, In Progress, In Review and Done, set priorities and due dates, and work together." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://flowboard-eight-beta.vercel.app/" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14161a" media="(prefers-color-scheme: dark)" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="%VITE_SUPABASE_URL%" crossorigin />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Flowboard" />
+    <meta property="og:title" content="Flowboard – Team Kanban Board for Tracking Tasks" />
+    <meta property="og:description" content="Organize tasks into Backlog, In Progress, In Review and Done, set priorities and due dates, and work together." />
+    <meta property="og:url" content="https://flowboard-eight-beta.vercel.app/" />
+    <meta property="og:image" content="https://flowboard-eight-beta.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Flowboard Kanban board with Backlog, In Progress, In Review and Done columns" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Flowboard – Team Kanban Board for Tracking Tasks" />
+    <meta name="twitter:description" content="Organize tasks into Backlog, In Progress, In Review and Done, set priorities and due dates, and work together." />
+    <meta name="twitter:image" content="https://flowboard-eight-beta.vercel.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Flowboard Kanban board with Backlog, In Progress, In Review and Done columns" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Flowboard",
+        "url": "https://flowboard-eight-beta.vercel.app/",
+        "description": "Flowboard is a private team Kanban board for planning and tracking tasks across Backlog, In Progress, In Review and Done columns, with priorities, assignees and due dates.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": "en"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Static copy for crawlers and slow connections; React replaces it once the app loads. -->
+      <div class="app">
+        <header class="app-header">
+          <h1>Flowboard</h1>
+          <p>Team Kanban</p>
+        </header>
+        <main>
+          <h2>A private Kanban board for your team</h2>
+          <p>Flowboard helps teams plan and track work. Add cards to a Backlog, move them through In Progress and In Review, and mark them Done. Give each card an assignee, a priority and a due date.</p>
+          <noscript><p>Flowboard needs JavaScript to run. Please enable it to sign in.</p></noscript>
+        </main>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
