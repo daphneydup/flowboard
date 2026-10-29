@@ -1,5 +1,9 @@
 # Flowboard
 
+[![CI](https://github.com/daphneydup/flowboard/actions/workflows/ci.yml/badge.svg)](https://github.com/daphneydup/flowboard/actions/workflows/ci.yml)
+
+**Live site:** https://flowboard-eight-beta.vercel.app
+
 A small team Kanban board built with React, TypeScript, Vite and Supabase.
 
 ## Setup
@@ -24,3 +28,6 @@ Drag or "Move to" cards between columns, search, undo on delete, light/dark them
 ### Automatic checks
 - **GitHub Actions** (`.github/workflows/ci.yml`) runs lint, tests and build on every push to `main` and on every pull request.
 - **Vercel** runs `npm test && npm run build` (see `buildCommand` in `vercel.json`), so a failing test blocks the deploy, including `vercel deploy` from the command line.
+
+### Deploying
+Every push to `main` is deployed to production by Vercel's GitHub integration, and every pull request gets a preview deployment. Supabase's public URL and publishable key are stored as Vercel environment variables (`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`).
